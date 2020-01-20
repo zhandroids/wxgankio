@@ -1,0 +1,6 @@
+<view class="item" wx:for="{{images}}" wx:for-item="girl" wx:key="girl" data-pos="{{index}}" data-item="{{girl}}" bindtap="itemClick">
+  <view class="group">
+    <image style="width: 100%" src="{{girl.url}}"></image>
+    <text style="text-align: right; display:block">{{girl.desc}}</text>
+  </view>
+</view>
